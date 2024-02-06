@@ -1,0 +1,56 @@
+/* #include styles/!fonts.css */
+
+body {
+  font-family: "BrandonText", sans-serif;
+  text-align: center;
+  background-color: #FAF9F6;
+}
+
+div#socials {
+  float: right;
+}
+
+div#socials a {
+  text-decoration: none;
+}
+
+div#socials a:hover {
+  cursor: pointer;
+}
+
+div#container {
+  max-width: 720px;
+  margin: auto;
+  padding: 11px;
+  padding-top: 5em;
+}
+
+img#profile {
+  border: 3px solid white;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px silver;
+}
+
+p#lede {
+  font-size: 1.5em;
+  margin-bottom: 3em;
+}
+
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  margin-bottom: 3em;
+  border: 3px solid white;
+  box-shadow: 1px 1px 3px silver;
+}
+
+#footer {
+  margin-top: 3em;
+  opacity: .5;
+}
+
+@media (max-width: 720px) {
+  h2 {
+    font-size: 1em;
+  }
+}

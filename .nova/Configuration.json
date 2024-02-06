@@ -1,4 +1,5 @@
 {
   "workspace.color" : 0,
-  "workspace.name" : "Scaring with Sammy"
+  "workspace.name" : "Scaring with Sammy",
+  "workspace.preview_root" : "docs"
 }
