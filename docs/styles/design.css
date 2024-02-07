@@ -40,6 +40,21 @@ html {
   background-attachment: fixed;
 }
 
+div#contact {
+  display: inline-block;
+  float: left;
+  margin-top: 11px;
+  margin-left: 11px;
+}
+
+div#contact a {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  padding: 0 3px;
+  font-weight: bold;
+}
+
 div#socials {
   float: right;
 }
