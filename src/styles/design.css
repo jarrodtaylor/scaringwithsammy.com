@@ -1,9 +1,12 @@
 /* #include styles/!fonts.css */
 
-body {
+html {
   font-family: "BrandonText", sans-serif;
   text-align: center;
   background-color: #FAF9F6;
+  background-image: url(/images/blood.jpg);
+  background-size: contain;
+  background-attachment: fixed;
 }
 
 div#socials {
@@ -34,6 +37,20 @@ img#profile {
 p#lede {
   font-size: 1.5em;
   margin-bottom: 3em;
+  background-color: #FFFFFFDD;
+  padding: 11px;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  display: inline-block;
+}
+
+@media (max-width: 720px) {
+  h2 {
+    font-size: 1em;
+  }
 }
 
 .youtube-video {
@@ -46,11 +63,7 @@ p#lede {
 
 #footer {
   margin-top: 3em;
-  opacity: .5;
-}
-
-@media (max-width: 720px) {
-  h2 {
-    font-size: 1em;
-  }
+  background-color: #FFFFFFDD;
+  padding: 0 11px;
+  display: inline-block;
 }
