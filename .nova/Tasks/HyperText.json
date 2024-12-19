@@ -2,7 +2,7 @@
   "actions" : {
     "build" : {
       "enabled" : true,
-      "script" : "hypertext src docs"
+      "script" : "alternator src docs"
     },
     "clean" : {
       "enabled" : true,
@@ -10,7 +10,7 @@
     },
     "run" : {
       "enabled" : true,
-      "script" : "hypertext src docs --stream"
+      "script" : "alternator src docs --stream"
     }
   },
   "openLogOnRun" : "start"
